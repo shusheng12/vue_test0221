@@ -5,6 +5,9 @@ import store from "./store";
 
 Vue.config.productionTip = false;
 
+import './element_ui';
+import 'element-ui/lib/theme-chalk/index.css'
+
 new Vue({
   router,
   store,
